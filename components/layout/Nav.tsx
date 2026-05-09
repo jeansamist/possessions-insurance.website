@@ -26,14 +26,14 @@ export default function Nav({ onOpenQuiz }: NavProps) {
         <div className="flex items-center justify-between h-[72px]">
           <a
             href="/"
-            className="flex items-center gap-4"
+            className="flex items-center gap-2"
             aria-label={SITE.name}
           >
             <Image
               src="/possession logo icon.png"
               alt="Possession logo"
-              width={32}
-              height={32}
+              width={36}
+              height={36}
               className="mr-2 object-contain"
             />
             <div className="flex flex-col leading-none" aria-label={SITE.name}>
