@@ -31,19 +31,22 @@ export default function Footer({ onOpenContact, onOpenQuiz }: FooterProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2" aria-label={SITE.name}>
+            <div
+              className="flex items-center gap-2 mb-4"
+              aria-label={SITE.name}
+            >
               <Image
                 src="/possession logo icon.png"
                 alt="Possession logo"
                 width={32}
                 height={32}
-                className="mr-2 object-contain mix-blend-lighten"
+                className="mr-2 object-contain"
               />
               <div aria-label={SITE.name}>
                 <div className="font-serif font-semibold text-lg text-white tracking-tight">
                   {SITE.name}
                 </div>
-                <div className="text-[9px] font-semibold tracking-[0.12em] uppercase text-white/40 mt-0.5 mb-4">
+                <div className="text-[9px] font-semibold tracking-[0.12em] uppercase text-white/40 mt-0.5">
                   {SITE.tagline}
                 </div>
               </div>
