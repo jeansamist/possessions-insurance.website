@@ -38,8 +38,8 @@ export default function Footer({ onOpenContact, onOpenQuiz }: FooterProps) {
               <Image
                 src="/possession logo icon.png"
                 alt="Possession logo"
-                width={32}
-                height={32}
+                width={64}
+                height={64}
                 className="mr-2 object-contain brightness-0 invert"
               />
               {/* <div aria-label={SITE.name}>
