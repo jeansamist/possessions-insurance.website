@@ -40,16 +40,16 @@ export default function Footer({ onOpenContact, onOpenQuiz }: FooterProps) {
                 alt="Possession logo"
                 width={32}
                 height={32}
-                className="mr-2 object-contain"
+                className="mr-2 object-contain brightness-0 invert"
               />
-              <div aria-label={SITE.name}>
+              {/* <div aria-label={SITE.name}>
                 <div className="font-serif font-semibold text-lg text-white tracking-tight">
                   {SITE.name}
                 </div>
                 <div className="text-[9px] font-semibold tracking-[0.12em] uppercase text-white/40 mt-0.5">
                   {SITE.tagline}
                 </div>
-              </div>
+              </div> */}
             </div>
             <p className="text-white/65 text-sm leading-relaxed max-w-[240px]">
               No bots. No pressure. Just local agents protecting what matters
