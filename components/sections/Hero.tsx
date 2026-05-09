@@ -70,9 +70,9 @@ export default function Hero({ onOpenQuiz }: HeroProps) {
         {/* Quote form */}
         <div className="animate-[fadeDown_0.65s_cubic-bezier(.22,1,.36,1)_.5s_both]">
           <div
-            className="bg-white text-ink rounded-full max-w-2xl mx-auto mt-8 flex items-center px-5 py-1.5 gap-0
+            className="bg-white text-ink rounded-xl max-w-2xl mx-auto mt-8 flex items-center px-5 py-1.5 gap-0
                           shadow-[0_16px_40px_rgba(14,15,17,.18),0_4px_10px_rgba(14,15,17,.08)]
-                          flex-col sm:flex-row rounded-2xl sm:rounded-xl p-4 sm:p-1.5 sm:px-5"
+                          flex-col sm:flex-row rounded-2xl md:rounded-full p-4 sm:p-1.5 sm:px-5"
           >
             <label className="flex items-center gap-2.5 w-full sm:w-auto flex-shrink-0 py-2 sm:py-0">
               <MapPin
